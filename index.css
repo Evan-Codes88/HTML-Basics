@@ -6,6 +6,17 @@ img {
     width: 200px;
 }
 
-h1 {
-    background-color: aqua;
+.testing {
+    background-color: blue;
+    color: coral;
+}
+
+.welcome {
+    background-color: aliceblue;
+    color: coral;
+}
+
+.tester2 {
+    background-color: silver;
+    color: cadetblue;
 }

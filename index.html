@@ -1,9 +1,22 @@
 <!DOCTYPE html>
 
+<!--HTML is a markup language. It is "what to display" whereas CSS is "How to display"-->
+
 <html>
     <!--Head tag is for the document title, links to CSS and JS files-->
+    <!--The head tag can also be used to add style tags-->
     <head>
         <title>HTML and CSS Basics</title>
+        <style>
+            h3 {
+                color: blueviolet;
+            }
+            h2 {
+                color: bisque;
+                background-color: brown;
+            }
+        </style>
+        <link rel="stylesheet" href="index.css"> <!--This link is being used to connect to the CSS document-->
     </head>
 
     <body>
@@ -20,9 +33,9 @@
         <p>Let's create an unordered list about my fav foods!</p>
         <ul>
             <li>Cheese</li>
-            <img src="/Images/Cheese.png" width="200px" alt="Cheese!"> <!--This image is a local image. Meaning it is downloaded and in a folder on your computer-->
+            <img src="/Images/Cheese.png" alt="Cheese!"> <!--This image is a local image. Meaning it is downloaded and in a folder on your computer-->
             <li>Pizza</li>
-            <img src="https://www.tasteofhome.com/wp-content/uploads/2018/01/Homemade-Pizza_EXPS_FT23_376_EC_120123_3.jpg?fit=700%2C1024" width="200px" alt="Pizza">
+            <img src="https://www.tasteofhome.com/wp-content/uploads/2018/01/Homemade-Pizza_EXPS_FT23_376_EC_120123_3.jpg?fit=700%2C1024" alt="Pizza">
             <!--The image of a pizza is not a local image but one found through an image address-->
             <li>Fries</li>
             <li>Lasagne</li>
@@ -30,10 +43,10 @@
 
         <br>
         <p>This is an ordered to-do list</p>
-        <ol>
-            <li>
+        <ol> <!--OL stands for Ordered List-->
+            <li> <!--LI stands for list item-->
                 Learn HTML
-                <ul>
+                <ul> <!--UL stands for Unordered List-->
                     <li>Create a simple Website</li>
                 </ul>
             </li>
@@ -45,13 +58,21 @@
             </li>
         </ol>
 
-        <div>
+        <!--Lists can be nested inside each other and can consist of both OL and UL-->
+
+        <div> <!--a Div is used to seperate sections. It helps with organisation and using CSS to style-->
             <h2>Below is a link :0</h2>
             <p>
             <a href="https://www.youtube.com" target="_blank">This link goes to youtube</a>
             </p>
         </div>
 
+    <!--Inline style is a way to apply CSS into a webpage without using a seperate CSS document-->
+        <h2 style="color: whitesmoke;background-color: grey;">I have used inline styling to make the text white and background colour grey</h2>
+
+        <br>
+
+        <h3>This h3 is used to test the style in the head section</h3>
 
     </body> 
 </html>

@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+}
+
+
+#header {
+    text-align: center;
+}
+
+#form {
+    text-align: center;
+
+    padding: 16px;
+    width: 30%;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 16px;
+    box-shadow: 0px 0px 32px 1px rgba(0,0,0,0.75);
+}
+
+.form-element {
+    margin-bottom: 16px;
+}
+
+.form-input {
+    height: 20px;
+    border: 1px solid rgb(4, 4, 103);
+    border-radius: 4px;
+    outline: none;
+}
+
+.form-input:focus {
+    border-color: red;
+}
+
+#loginbutton {
+    background-color: rgb(4, 4, 103);
+    color: white;
+    height: 50px;
+    width: 100px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
+#loginbutton:hover {
+    background-color: rgb(40, 40, 133);
+    color: white;
+}
+
+.label {
+    font-size: 18px;
+}
+
+#chat-btn {
+    position: fixed;
+    bottom: 80px;
+    right: 10px;
+}
+
+#button-chat {
+    background-color: rgb(4, 4, 103);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#button-home {
+    background-color: rgb(4, 4, 103);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#button-home:visited {
+    background-color: rgb(4, 4, 103);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#button-chat:hover {
+    background-color: rgb(40, 40, 133);;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#button-home:hover {
+    background-color: rgb(40, 40, 133);;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#footer {
+    position: fixed;
+    bottom: 0px;
+    background-color: rgb(4, 4, 103);
+    width: 100vw;
+    height: 40px;
+}
+
+#footer-words {
+    text-align: center;
+    color: white;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin: 0;
+}
